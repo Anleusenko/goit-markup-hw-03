@@ -6,9 +6,31 @@ body {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
+h1, h2, h3, p {
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.container {
+    max-width: 1440px;
+    padding: 25.5px 156px;
+    padding-left: 156px; 
+    padding-right: 156px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Header */
+.header-section {
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+    display: flex; 
+}
+
 .logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -18,6 +40,7 @@ ul {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
+
 }
 
 .logo .header-accent {
@@ -31,6 +54,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
+
 }
 
 .header-link:hover {
@@ -51,6 +75,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
 }
 
 .contacts-link:hover {
@@ -66,7 +92,8 @@ ul {
 /* Button */
 .hero-section {
     background-color: #2E2F42;
-    ;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .hero-title {
@@ -98,6 +125,10 @@ ul {
 }
 
 /* Our benefits */
+.benefit-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .benefit-title {
     color: #2e2f42;
     font-size: 20px;
@@ -115,6 +146,8 @@ ul {
 /* Our team */
 .team-section {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -147,6 +180,10 @@ ul {
 }
 
 /* Our Portfolio */
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .portfolio-title {
     color: #2e2f42;
     font-size: 36px;
