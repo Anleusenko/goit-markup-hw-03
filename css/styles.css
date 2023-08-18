@@ -66,6 +66,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.32px;
     text-decoration: none;
+    display: block;
 }
 
 .header-link:hover {
@@ -103,10 +104,12 @@ img {
     background-color: #2E2F42;
     padding-top: 120px;
     padding-bottom: 120px;
-    display: block;
 }
 .hero-section .container {
     padding: 188px 472px; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 .hero-title {
     color: #FFF;
@@ -115,6 +118,7 @@ img {
     line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .hero-button {
@@ -128,7 +132,8 @@ img {
     cursor: pointer;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin-top: 48px;
+    box-sizing: border-box;
+    width: 140px;
 }
 
 .hero-button:hover {
@@ -146,7 +151,10 @@ img {
     padding-left: 156px;
     padding-right: 156px;
 }
-
+.benefit-section .container {
+    display: block;
+    align-items: center;
+}
 .benefit-title {
     color: #2e2f42;
     font-size: 20px;
@@ -157,7 +165,6 @@ img {
 .benefit-list {
     display: flex;
     gap: 24px;
-    width: calc((48+48)/4);
 }
 .benefit-text {
     font-size: 16px;
@@ -174,6 +181,7 @@ img {
 .team-section .container {
     display: block;
     align-items: center;
+    min-height: 100vh;
 }
 .team-list {
     display: flex;
@@ -217,7 +225,19 @@ img {
 .portfolio-section {
     padding-top: 120px;
     padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
 }
+.portfolio-section .container {
+    display: block;
+    align-items: center;
+    min-height: 100vh
+ }
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+ }
 .portfolio-title {
     color: #2e2f42;
     font-size: 36px;
