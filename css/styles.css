@@ -29,6 +29,7 @@ img {
 .header-section .container {
     display: flex;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .menu-nav {
     display: inline-flex;
@@ -42,7 +43,6 @@ img {
     padding-bottom: 25.5px;
     padding-right: 156px;
 }
-
 .logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -56,13 +56,11 @@ img {
     display: inline-flex;
     align-items: center;
     flex-shrink: 0;
-    margin-right: 76px
+    margin-right: 76px;
 }
-
 .logo .header-accent {
     color: #2E2F42;
 }
-
 .header-link {
     color: #2E2F42;
     font-size: 16px;
@@ -73,19 +71,15 @@ img {
     display: block;
     padding: 24px 0;
 }
-
 .header-link:hover {
     color: #404bbf;
 }
-
 .header-link:focus {
     color: #404bbf;
 }
-
 .contacts {
     font-style: normal;
 }
-
 .contacts-link {
     color: #434455;
     font-size: 16px;
@@ -93,17 +87,16 @@ img {
     letter-spacing: 0.32px;
     text-decoration: none;
 }
-
 .contacts-link:hover {
     color: #404bbf;
 }
-
 .contacts-link:focus {
     color: #404bbf;
 }
 
 
 /* Main */
+
 /* Button */
 .hero-section {
     background-color: #2E2F42;
@@ -169,17 +162,21 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
+}
+.benefit-item {
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .benefit-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
+
 }
 .benefit-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    margin-bottom: 8px;
 }
 
 /* Our team */
@@ -198,6 +195,7 @@ img {
     width: calc((48+48)/4);
     padding-left: 156px;
     padding-right: 156px;
+    flex-basis: calc((100% - 72px) / 4);
 
 }
 .team-title {
@@ -212,6 +210,9 @@ img {
 
 .team-item {
     background-color: #FFFFFF;
+}
+.container-our-team {
+    padding: 32px 0;
 }
 
 .person-title {
@@ -232,7 +233,7 @@ img {
 
 /* Our Portfolio */
 .portfolio-section {
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 .portfolio-section .container {
     display: block;
@@ -243,6 +244,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
  }
 .portfolio-item {
     display: flex;
@@ -255,6 +257,7 @@ img {
     flex-shrink: 0;
     border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-title {
     color: #2e2f42;
@@ -265,7 +268,12 @@ img {
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-
+.projects-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 .projects-title {
     color: #2e2f42;
     font-size: 20px;
@@ -297,11 +305,16 @@ img {
 /* Footer */
 .footer-section {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .footer-section .container {
     padding-top: 101.5px;
     padding-bottom: 100px;
     padding-left: 156px;
+}
+.cintainer .logo {
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .footer-accent {
     color: #F4F4FD;
