@@ -113,9 +113,6 @@ img {
     background-color: #2E2F42;
     padding: 188px 0;
 }
-.hero-section .container {
-    padding: 188px 472px; 
-}
 .hero-title {
     color: #FFF;
     font-size: 56px;
@@ -224,8 +221,6 @@ img {
 .team-list {
     display: flex;
     gap: 24px;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 .team-item {
     background-color: #FFFFFF;
