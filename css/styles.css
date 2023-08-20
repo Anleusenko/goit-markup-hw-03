@@ -293,8 +293,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 8px;
     align-self: stretch;
+    margin-bottom: 8px;
 }
 
 .projects-text {
@@ -306,7 +306,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 8px;
     align-self: stretch;
 }
 
